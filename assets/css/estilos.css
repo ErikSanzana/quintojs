@@ -1,0 +1,61 @@
+* {
+  text-align: center;
+}
+
+body {
+  background: #4e4d4d;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  width: 100vw;
+}
+
+nav {
+  padding: 20px 15%;
+  border-right: solid 1px white;
+  height: 100vh;
+}
+
+nav section {
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+nav div {
+  margin-bottom: 20px;
+}
+.btn {
+  width: 300px;
+  margin: 3px;
+}
+
+.resultados {
+  width: 100vh;
+  display: flex;
+}
+
+.computo {
+  margin: 0;
+  width: 50%;
+}
+.ids {
+  margin: 0;
+  width: 50%;
+  /* 50% es perfecto */
+}
+
+.derecha {
+  text-align: right;
+  margin: 0;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+.deleteButton {
+  text-align: center;
+}
+.realizada {
+    text-decoration: line-through;
+  }

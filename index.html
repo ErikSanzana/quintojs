@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <br />
+    <p>NUEVA TAREA</p>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <input min="0" class="form-control" type="text" id="newTarea" />
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-warning" id="buscar">Agregar</button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="resultados">
+      <div class="computo" id="padre">
+        <!-- aca van el total con su computo y realizadas con su computo -->
+  
+      </div>
+      <div class="ids" id="papa">
+      </div>
+      
+    </div>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
+
+
+<!-- debemos agregar con js las siguientes cosas:
+1-Total tendra su propia id donde modificaremos su value (muestra hacia el lado)
+2-Realizadas donde tambien tendra su propia id para poder ir recorriendola con el tiempo(muestra hacia el lado)
+3-ID donde muestra en formato lista las id (muestra hacia abajo) 
+4-Tarea muestra en formato lista  las tareas
+5- Hay dos checkbox en esta nueva columna para verificar si estas id con su tarea asociada fueron cumplidas-->
